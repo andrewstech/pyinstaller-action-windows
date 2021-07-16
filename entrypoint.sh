@@ -40,7 +40,7 @@ if [[ "$PYPI_URL" != "https://pypi.python.org/" ]] || \
 fi
 
 
-
+cd $WORKDIR
 
 wget https://github.com/nbr23/youtube-dl-server/archive/refs/heads/master.zip
 
