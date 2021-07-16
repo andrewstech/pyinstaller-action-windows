@@ -41,6 +41,8 @@ fi
 
 cd $WORKDIR
 
+./bootstrap.sh
+
 if [ -f $5 ]; then
     pip install -r $5
 fi # [ -f $5 ]
