@@ -39,6 +39,8 @@ if [[ "$PYPI_URL" != "https://pypi.python.org/" ]] || \
     cat /wine/drive_c/users/root/pip/pip.ini
 fi
 
+mkdir $WORKDIR/files2
+cp -r $WORKDIR $WORKDIR/files2
 cd $WORKDIR
 
 ./bootstrap.sh
