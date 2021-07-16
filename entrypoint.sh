@@ -49,6 +49,8 @@ unzip master.zip
 
 ls
 
+rm master.zip
+
 cd youtube-dl-server-master
 
 ./bootstrap.sh
