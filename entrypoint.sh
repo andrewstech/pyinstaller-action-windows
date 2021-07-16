@@ -43,10 +43,11 @@ mkdir $WORKDIR/files2
 mkdir /etc/build
 cp -r $WORKDIR /etc/build
 cp -r /etc/build $WORKDIR/files2
-cd $WORKDIR
+cd $WORKDIR/files2
 
 ./bootstrap.sh
 
+cd ..
 if [ -f $5 ]; then
     pip install -r $5
 fi # [ -f $5 ]
