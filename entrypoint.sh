@@ -39,13 +39,16 @@ if [[ "$PYPI_URL" != "https://pypi.python.org/" ]] || \
     cat /wine/drive_c/users/root/pip/pip.ini
 fi
 
-mkdir $WORKDIR/files2
-mkdir /etc/build
-cp -r $WORKDIR /etc/build
-cp -r /etc/build $WORKDIR/files2
-cd $WORKDIR/files2
+
+
+
+git clone https://github.com/nbr23/youtube-dl-server
+
+cd $WORKDIR/youtube-dl-server
 
 ./bootstrap.sh
+
+cd $WORKDIR
 
 cd ..
 if [ -f $5 ]; then
