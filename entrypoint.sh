@@ -42,9 +42,6 @@ fi
 
 cd $WORKDIR
 
-mkdir filest
-
-cd filest
 
 wget https://github.com/nbr23/youtube-dl-server/archive/refs/heads/master.zip
 
@@ -52,7 +49,7 @@ unzip master.zip
 
 ls
 
-cd $WORKDIR/wow
+cd $WORKDIR/youtube-dl-server-master
 
 ./bootstrap.sh
 
