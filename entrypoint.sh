@@ -49,7 +49,7 @@ unzip master.zip
 
 ls
 
-cd $WORKDIR/youtube-dl-server-master
+cd youtube-dl-server-master
 
 ./bootstrap.sh
 
