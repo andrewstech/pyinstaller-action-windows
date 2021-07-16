@@ -1,3 +1,11 @@
+# Heavily Modified for Youtube-dl-server 
+
+This action has been Heavily modified for the project.
+
+It is mot recommended to use for projects other then Youtube-dl-server or forks of it.
+
+
+
 # PyInstaller-Action-Windows
 
 Github Action for building executables with PyInstaller
