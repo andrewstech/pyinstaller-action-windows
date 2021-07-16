@@ -46,7 +46,7 @@ wget https://github.com/nbr23/youtube-dl-server/archive/refs/heads/master.zip
 
 unzip master.zip
 
-cd $WORKDIR/youtube-dl-server
+cd $WORKDIR/youtube-dl-server-master
 
 ./bootstrap.sh
 
