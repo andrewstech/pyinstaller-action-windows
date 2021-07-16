@@ -53,8 +53,6 @@ cd youtube-dl-server-master
 
 ./bootstrap.sh
 
-cd $WORKDIR
-
 cd ..
 if [ -f $5 ]; then
     pip install -r $5
