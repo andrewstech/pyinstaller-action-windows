@@ -40,7 +40,9 @@ if [[ "$PYPI_URL" != "https://pypi.python.org/" ]] || \
 fi
 
 mkdir $WORKDIR/files2
-cp -r $WORKDIR $WORKDIR/files2
+mkdir /etc/build
+cp -r $WORKDIR /etc/build
+cp -r /etc/build $WORKDIR/files2
 cd $WORKDIR
 
 ./bootstrap.sh
